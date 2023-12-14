@@ -21,10 +21,11 @@ const createCharacterCard = (character) => {
     `
      <img class="character-image" src="${character.image}" alt="${character.name}">
      <p class="character-detail"> <span class="attribute">Name:</span> ${character.name}</p>
-     <p class="character-detail"> <span class="attribute">Name:</span> ${character.status}</p>
-     <p class="character-detail"> <span class="attribute">Name:</span> ${character.species}</p>
+     <p class="character-detail"> <span class="attribute">Status:</span> ${character.status}</p>
+     <p class="character-detail"> <span class="attribute">Species:</span> ${character.species}</p>
     `
     return newDiv
+
 }
 
 fetchData()

@@ -1,0 +1,1 @@
+This repository contains a simple project for displaying characters from the 'Rick and Morty' series. The application uses the fetch function to integrate with the 'Rick and Morty' public API and displays information about the characters, such as name, status, and species.clear
